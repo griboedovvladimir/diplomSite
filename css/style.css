@@ -279,6 +279,46 @@ img {
     background-image: url(../img/prodfon.jpg);
     background-size: cover;
 }
+
+/*Laboratory*/
 .addbtn{
     width:100%;
 }
+
+.element-item {
+    padding: 2px;
+}
+.persent-size {
+    width: 45%;
+}
+
+.element-item p{
+    position: absolute;
+    z-index: 50;
+    top:0%;
+    padding-top: 40%;
+    height: 100%;
+    width:65%;
+    font-size: 1.6vw;
+    margin-left: 30px;
+    background-size: black;
+    opacity: 0;
+}
+
+.element-item .blocklab{
+    position: absolute;
+    z-index: 50;
+    top:0%;
+    padding-top: 20%;
+    height: 100%;
+    width:65%;
+    font-size: 1.6vw;
+    margin-left: 30px;
+    background-size: black;
+    opacity: 0;
+}
+.aboutlab p{
+    padding: 10px;
+    width:100%;
+}
+
