@@ -64,69 +64,62 @@ mouseout(function(){
 
     $('#lab1 p').
     mouseover(function(){
-        $('#lab1 img').animate({opacity: "0.3"}, 300);
-        $('#lab1 p').animate({opacity: "1"}, 700);
+        $('#lab1 img').removeClass('hoverblur').addClass('hoverblurin');
+        $('#lab1 p').animate({opacity: "1"}, 300);
     }).
     mouseout(function(){
-        // при покидании элемента
-        $('#lab1 img').animate({opacity: "1"}, 700);
-        $('#lab1 p').animate({opacity: "0"}, 300);
+    $('#lab1 img').removeClass('hoverblurin').addClass('hoverblur');
+        $('#lab1 p').animate({opacity: "0"}, 300)
     });
 
     $('#lab2 p').
     mouseover(function(){
-        $('#lab2 img').animate({opacity: "0.3"}, 300);
-        $('#lab2 p').animate({opacity: "1"}, 700);
+        $('#lab2 img').removeClass('hoverblur').addClass('hoverblurin');
+        $('#lab2 p').animate({opacity: "1"}, 300);
     }).
     mouseout(function(){
-        // при покидании элемента
-        $('#lab2 img').animate({opacity: "1"}, 700);
-        $('#lab2 p').animate({opacity: "0"}, 300);
+        $('#lab2 img').removeClass('hoverblurin').addClass('hoverblur');
+        $('#lab2 p').animate({opacity: "0"}, 300)
     });
 
     $('#lab3 p').
     mouseover(function(){
-        $('#lab3 img').animate({opacity: "0.3"}, 300);
+        $('#lab3 img').removeClass('hoverblur').addClass('hoverblurin');
         $('#lab3 p').animate({opacity: "1"}, 700);
     }).
     mouseout(function(){
-        // при покидании элемента
-        $('#lab3 img').animate({opacity: "1"}, 700);
-        $('#lab3 p').animate({opacity: "0"}, 300);
+        $('#lab3 img').removeClass('hoverblurin').addClass('hoverblur');
+        $('#lab3 p').animate({opacity: "0"}, 300)
     });
 
     $('#lab4 p').
     mouseover(function(){
-        $('#lab4 img').animate({opacity: "0.3"}, 300);
+        $('#lab4 img').removeClass('hoverblur').addClass('hoverblurin');
         $('#lab4 p').animate({opacity: "1"}, 700);
     }).
     mouseout(function(){
-        // при покидании элемента
-        $('#lab4 img').animate({opacity: "1"}, 700);
-        $('#lab4 p').animate({opacity: "0"}, 300);
+        $('#lab4 img').removeClass('hoverblurin').addClass('hoverblur');
+        $('#lab4 p').animate({opacity: "0"}, 300)
     });
 
     $('#lab5 p').
     mouseover(function(){
-        $('#lab5 img').animate({opacity: "0.3"}, 300);
-        $('#lab5 p').animate({opacity: "1"}, 700);
+        $('#lab5 img').removeClass('hoverblur').addClass('hoverblurin');
+        $('#lab5 p').animate({opacity: "1"}, 300);
     }).
     mouseout(function(){
-        // при покидании элемента
-        $('#lab5 img').animate({opacity: "1"}, 700);
-        $('#lab5 p').animate({opacity: "0"}, 300);
+        $('#lab5 img').removeClass('hoverblurin').addClass('hoverblur');
+        $('#lab5 p').animate({opacity: "0"}, 300)
     });
 
     $('#lab6 p').
     mouseover(function(){
-        $('#lab6 img').animate({opacity: "0.3"}, 300);
-        $('#lab6 p').animate({opacity: "1"}, 700);
+        $('#lab6 img').removeClass('hoverblur').addClass('hoverblurin');
+        $('#lab6 p').animate({opacity: "1"}, 300);
     }).
     mouseout(function(){
-        // при покидании элемента
-        $('#lab6 img').animate({opacity: "1"}, 700);
-        $('#lab6 p').animate({opacity: "0"}, 300);
+        $('#lab6 img').removeClass('hoverblurin').addClass('hoverblur');
+        $('#lab6 p').animate({opacity: "0"}, 300)
     });
-
 
 });
