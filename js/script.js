@@ -130,5 +130,11 @@ mouseout(function(){
     $(":file").filestyle('placeholder', 'Файл не выбран');
 
 
+	$("[data-fancybox]").fancybox({
+		// Options will go here
+	});
+
+	
+
 
 });

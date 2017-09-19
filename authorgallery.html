@@ -11,10 +11,12 @@
     <link rel="stylesheet" type="text/css" href="css/fontello.css">
     <link rel="stylesheet" type="text/css" href="css/fontello-embedded.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/bootstrap-filestyle.js"></script>
+    <script src="js/jquery.fancybox.js"></script>
     <script src="js/script.js"></script>
 </head>
 <body>
@@ -83,8 +85,8 @@
 
     <div class="row">
         <div class="col-md-1"></div>
-        <div class="col-md-5"><img class="works center-block" src="img/pic3.jpg"></div>
-        <div class="col-md-5"><img class="works center-block" src="img/pic3.jpg"></div>
+        <div class="col-md-5"><a href="img/pic3.jpg" data-fancybox data-caption=""><img class="works center-block" src="img/pic3_2.jpg" alt="" /></a></div>
+        <div class="col-md-5"><a href="img/pic3.jpg" data-fancybox data-caption=""><img class="works center-block" src="img/pic3_2.jpg" alt="" /></a></div>
         <div class="col-md-1"></div>
         </div>
  <div class="row">
@@ -92,7 +94,6 @@
             <div class="col-md-8"> <button type="button" id="galleryAddBtn" class="btn btn-default addbtn">Добавить фотоработу</button> </div>
             <div class="col-md-2"></div>
         </div>
-
 
     <!-- HTML-код модального окна -->
     <div id="myModalBox" class="modal fade" >
@@ -110,15 +111,15 @@
                     <div class="form-check">
                         <label class="form-check-label">
                             <input type="checkbox" class="form-check-input">
-                            some_photo.jpg
+                            <img class="worksfordelete" src="img/pic3.jpg">
                         </label>
                         <label class="form-check-label">
                             <input type="checkbox" class="form-check-input">
-                            some_photo.jpg
+                            <img class="worksfordelete" src="img/pic3.jpg">
                         </label>
                         <label class="form-check-label">
                             <input type="checkbox" class="form-check-input">
-                            some_photo.jpg
+                            <img class="worksfordelete" src="img/pic3.jpg">
                         </label>
                     </div>
                         <button type="submit" class="btn btn-danger">Удалить отмеченные</button>
