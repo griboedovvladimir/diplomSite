@@ -268,7 +268,7 @@ width:95%;
     content: "";
     width: 100%;
 }
-img {
+.productcard img {
     height: auto;
     max-width: 100%;
 }
@@ -484,4 +484,29 @@ margin: 0 0 10px 0;
     position:absolute;
     top:0;
     opacity: 0;
+}
+
+.form-check-label{
+    display: block;
+}
+
+.modal p{
+    font-size: 20px;
+}
+.modal .btn-danger{
+    margin: 15px 0;
+}
+
+.registration{
+    margin-left: 25px;
+    font-size: 16px;
+}
+
+
+.registration a{
+    font-size: 25px;
+}
+
+.registration a:hover{
+    color:darkgray;
 }

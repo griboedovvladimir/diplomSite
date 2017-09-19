@@ -122,4 +122,13 @@ mouseout(function(){
         $('#lab6 p').animate({opacity: "0"}, 300)
     });
 
+
+    $(":file").filestyle({placeholder: "No file"});
+    // get
+    $(":file").filestyle('placeholder');
+// set
+    $(":file").filestyle('placeholder', 'Файл не выбран');
+
+
+
 });
