@@ -31,6 +31,10 @@
 body{
     background-color: black;
 }
+img {
+    height: auto;
+    max-width: 100%;
+}
 .container-fluid a{
     text-decoration: none;
 }
@@ -513,3 +517,12 @@ margin: 0 5px;
 .worksfordelete{
 max-width: 100px;
 }
+
+/* хром, сафари */
+body::-webkit-scrollbar { width: 0; }
+
+/* ie 10+ */
+body { -ms-overflow-style: none; }
+
+/* фф (свойство больше не работает, других способов тоже нет)*/
+body { overflow: -moz-scrollbars-none; }
